@@ -147,7 +147,7 @@ class HelicsFederate(object):
         self._federate_info = h.helicsCreateFederateInfo()
 
         if self.federate_info_core_name == "":
-            self.federate_info_core_name = str(uuid.uuid4())
+            self.federate_info_core_name = "5d0737a4-100e-4685-9346-e67f868b0e13"
 
         self.log(f'setting federate core name to {self.federate_info_core_name}', helper=True)
 
